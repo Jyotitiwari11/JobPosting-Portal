@@ -1,16 +1,20 @@
-# React + Vite
+# JobPilot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JobPilot is a web application designed to enable 
+companies to register, log in, and manage their profiles through a secure, scalable, and 
+responsive interface. The module includes a multi-step registration form displayed in the 
+dashboard post-registration, with profile details editable in the settings section. The backend 
+handles all logic via APIs, using Firebase for authentication (email/password).
 
-Currently, two official plugins are available:
+## Features
+- User authentication and profile management
+- Multi-step registration process
+- Company information and reviews
+- Social media integration
+- Responsive design for mobile and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Dependencies: 
+○ firebase: For email/password and SMS OTP authentication. 
+○ react-hook-form: For form handling and validation. 
+○ react-phone-input-2: For mobile number input with country codes. 
+○ react-router-dom: For routing. 
